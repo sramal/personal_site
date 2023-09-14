@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+    background-image: url("https://c0.wallpaperflare.com/preview/664/296/9/united-states-lake-wylie-evening-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home {
+    height: 100px;
+    margin: 50px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.header {
+    height: 100px;
+    margin: 50px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    font-size: large;
+    margin: 50px;
+    color: Black;
+    font-size: x-large;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#display {
+    height: 50px;
+    width: 30%;
+    margin: 50px;
+    padding: 0.7em;
+    text-align: center;
+    font-size: 1.5em;
+}
