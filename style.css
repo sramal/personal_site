@@ -24,6 +24,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    height: 4rem;
 }
 
 .title {
@@ -75,6 +76,22 @@ body {
 main p {
     margin: 2rem;
     font-size: 1.25rem;
+}
+
+.main {
+    margin: 6rem 1rem 1rem 1rem;
+}
+
+.main-contact input {
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#textarea {
+    width: 90%;
+    padding: 1rem;
 }
 
 @media (max-width: 600px) {
