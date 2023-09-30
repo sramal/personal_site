@@ -8,7 +8,7 @@
     </head>
     <body>
         <nav class="navbar">
-            <div class="title">Contact</div>
+            <div class="title"><p>Contact</p></div>
             <a href="#" class="toggle-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -24,45 +24,73 @@
             </div>
         </nav>
 
-        <main class="main main-contact">
-            <form action="./message.html" method="GET">
-                <div>
-                    <label for="name">Name:</label>
-                    <br />
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        value=""
-                        required
-                    />
-                </div>
-                <div>
-                    <label for="email">Email:</label>
-                    <br />
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        value=""
-                        required
-                    />
-                </div>
-                <div>
-                    <label for="message">Message:</label>
-                    <br />
-                    <textarea
-                        name="textarea"
-                        id="textarea"
-                        cols="50"
-                        rows="10"
-                    ></textarea>
-                </div>
-                <div>
-                    <input type="submit" id="contact-submit" />
-                </div>
-            </form>
+        <main class="main">
+            <div class="main-content main-contact-content">
+                <form action="./message.html" method="GET">
+                    <div>
+                        <label for="name">Name:</label>
+                        <br />
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            value=""
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <br />
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            value=""
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <br />
+                        <textarea
+                            name="textarea"
+                            id="textarea"
+                            cols="50"
+                            rows="10"
+                        ></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" id="contact-submit" />
+                    </div>
+                </form>
+            </div>
         </main>
+        <footer class="social">
+            <div class="social-links">
+                <a href="https://www.facebook.com/" target="_blank"
+                    ><img
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/240px-Facebook_f_logo_%282021%29.svg.png"
+                        alt="facebook icon"
+                        class="social-facebook"
+                /></a>
+            </div>
+            <div class="social-links">
+                <a href="https://twitter.com/" target="_blank"
+                    ><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/WLA_icon_twitter.svg/240px-WLA_icon_twitter.svg.png"
+                        alt="twitter icon"
+                        class="social-links social-twitter"
+                /></a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/" target="_blank"
+                    ><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/240px-LinkedIn_icon_circle.svg.png"
+                        alt="linkedin icon"
+                        class="social-links social-linkedin"
+                /></a>
+            </div>
+        </footer>
 
         <script src="./javascript.js"></script>
     </body>
