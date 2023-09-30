@@ -134,6 +134,71 @@ body {
     padding: 1rem;
 }
 
+.main-about-content > div {
+    width: 75%;
+    margin: auto auto 4rem auto;
+}
+
+.main-about-content > hr {
+    width: 75%;
+}
+
+.main-about-content > div > p {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main-about-description p {
+    font-size: 2rem;
+}
+
+.main-hobbies-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.main-about-img {
+    width: 200px;
+}
+
+.main-about-trading-img {
+    float: left;
+    margin-right: 2rem;
+}
+
+.main-about-crypto-img {
+    float: right;
+    margin-left: 2rem;
+}
+
+.main-about-hiking-img {
+    float: left;
+    margin-right: 2rem;
+}
+
+.main-portfolio-content > div {
+    width: 75%;
+    margin: auto auto 4rem auto;
+}
+
+.main-portfolio-content > hr {
+    width: 75%;
+}
+
+.main-portfolio-content > div > p {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main-portfolio-description p {
+    font-size: 2rem;
+}
+
+.main-project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 @media (max-width: 931px) {
     .navbar {
         height: 7rem;
