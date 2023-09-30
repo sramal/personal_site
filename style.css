@@ -27,9 +27,10 @@ body {
     height: 4rem;
 }
 
-.title {
+.title p {
     font-size: 2.5rem;
-    margin: 0.5rem 1.5rem;
+    margin: 0.5rem 2rem;
+    padding: 0 1.5rem;
 }
 
 .navbar-links ul {
@@ -73,16 +74,54 @@ body {
     border-radius: 10px;
 }
 
-main p {
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4rem;
+}
+
+.social-facebook {
+    width: 40px;
+}
+
+.social-twitter {
+    width: 50px;
+    margin: auto 5rem;
+}
+
+.social-linkedin {
+    width: 40px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 4rem auto auto;
+}
+
+.main-content {
+    width: 90%;
+}
+
+.main-content p {
     margin: 2rem;
     font-size: 1.25rem;
 }
 
-.main {
-    margin: 6rem 1rem 1rem 1rem;
+.main-contact-content form {
+    padding-top: 1rem;
+    width: 100%;
+    text-align: center;
 }
 
-.main-contact input {
+.main-contact-content input {
     width: 90%;
     margin: 1rem auto;
     padding: 1rem;
@@ -91,10 +130,17 @@ main p {
 
 #textarea {
     width: 90%;
+    margin-top: 1rem;
     padding: 1rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 931px) {
+    .navbar {
+        height: 7rem;
+    }
+}
+
+@media (max-width: 785px) {
     .toggle-menu {
         display: flex;
     }
@@ -107,6 +153,7 @@ main p {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        height: 4rem;
     }
 
     .navbar-links ul {
@@ -124,5 +171,15 @@ main p {
 
     .navbar-links.active {
         display: flex;
+    }
+}
+
+@media (max-width: 521px) {
+    .navbar {
+        height: 7rem;
+    }
+
+    .main {
+        margin: 7rem auto auto;
     }
 }
